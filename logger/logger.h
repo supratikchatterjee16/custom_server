@@ -6,7 +6,7 @@
 #include<fstream>
 #include<iostream>
 #include<stdlib.h>
-
+namespace networking{
 class Logger{
 private:
 	std::ostream out;
@@ -63,5 +63,5 @@ public:
 		print_log("DEBUG", args);
 	}
 } logger;
-
+}
 #endif

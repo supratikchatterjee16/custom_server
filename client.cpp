@@ -1,3 +1,4 @@
+namespace networking{
 template <class Protocol>
 class Client{
 private:
@@ -24,4 +25,4 @@ public:
 		proto.handle(SocketStream(socket_fd));
 	}
 };
- 
+}

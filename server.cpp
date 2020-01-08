@@ -1,3 +1,4 @@
+namespace networking{
 template <class Protocol>
 class ServerHandler{
 private:
@@ -59,3 +60,4 @@ public:
 		keep_live = false;
 	}
 };
+}
