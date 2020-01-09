@@ -1,3 +1,4 @@
+namespace networking{
 class SocketStreamReader{
 private:
 	int socket_fd;
@@ -98,3 +99,4 @@ public:
 	SocketStreamReader getStreamReader(){return this->sr;}
 	SocketStreamWriter getStreamWriter(){return this->sw;}
 };
+}
